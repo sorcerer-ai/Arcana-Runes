@@ -1,0 +1,10 @@
+{
+  "id": "commit-msg-kr",
+  "name": "커밋 메시지 작성",
+  "description": "코드 변경사항을 분석하여 Conventional Commits 형식의 메시지를 생성합니다.",
+  "prompt": "당신은 Git 커밋 메시지 작성 전문가입니다.\n\n다음 코드 변경사항(diff)을 분석하여 Conventional Commits 형식의 커밋 메시지를 생성하세요:\n\n## 형식\n```\n<type>(<scope>): <subject>\n\n<body>\n```\n\n## 타입 규칙\n- `feat`: 새 기능\n- `fix`: 버그 수정\n- `refactor`: 리팩토링 (동작 변경 없음)\n- `docs`: 문서 변경\n- `test`: 테스트 추가/수정\n- `chore`: 빌드/설정 변경\n\n## 작성 규칙\n- subject는 영어, 50자 이내, 명령형\n- body는 한국어로 변경 이유와 영향 설명\n- 여러 논리적 변경이 있으면 각각 별도 커밋 메시지 제안\n- Breaking change가 있으면 `BREAKING CHANGE:` 푸터 추가\n\n변경사항:\n{{input}}",
+  "icon": "GitCommit",
+  "is_custom": false,
+  "tags": ["git", "commit", "conventional"],
+  "version": "1.0.0"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "code-review-kr",
+    "name": "코드 리뷰",
+    "version": "1.0.0",
+    "description": "코드 품질, 보안 취약점, 모범 사례를 종합적으로 검토합니다.",
+    "author": "Arcana Team",
+    "tags": ["code", "review", "security"],
+    "rating": 4.8,
+    "downloads": 1250,
+    "category": "개발"
+  },
+  {
+    "id": "bug-fix-helper",
+    "name": "버그 수정 도우미",
+    "version": "1.1.0",
+    "description": "에러 메시지와 스택 트레이스를 분석하여 수정 방안을 제시합니다.",
+    "author": "Arcana Team",
+    "tags": ["bug", "debug", "error"],
+    "rating": 4.7,
+    "downloads": 2100,
+    "category": "개발"
+  },
+  {
+    "id": "api-docs-gen",
+    "name": "API 문서 생성기",
+    "version": "1.0.3",
+    "description": "코드의 함수, 클래스, 엔드포인트에서 API 문서를 자동 생성합니다.",
+    "author": "Arcana Team",
+    "tags": ["docs", "api", "documentation"],
+    "rating": 4.5,
+    "downloads": 890,
+    "category": "문서"
+  },
+  {
+    "id": "test-writer-kr",
+    "name": "테스트 작성기",
+    "version": "2.1.0",
+    "description": "함수나 모듈을 분석하여 엣지 케이스를 포함한 단위 테스트를 생성합니다.",
+    "author": "Arcana Team",
+    "tags": ["test", "unit-test", "coverage"],
+    "rating": 4.7,
+    "downloads": 1580,
+    "category": "개발"
+  },
+  {
+    "id": "refactor-guide",
+    "name": "리팩토링 가이드",
+    "version": "1.1.0",
+    "description": "코드 스멜을 감지하고 클린 코드 패턴에 따른 리팩토링을 제안합니다.",
+    "author": "Arcana Team",
+    "tags": ["refactor", "clean-code", "patterns"],
+    "rating": 4.3,
+    "downloads": 670,
+    "category": "개발"
+  },
+  {
+    "id": "commit-msg-kr",
+    "name": "커밋 메시지 작성",
+    "version": "1.0.0",
+    "description": "코드 변경사항을 분석하여 Conventional Commits 형식의 메시지를 생성합니다.",
+    "author": "Arcana Team",
+    "tags": ["git", "commit", "conventional"],
+    "rating": 4.6,
+    "downloads": 1850,
+    "category": "도구"
+  },
+  {
+    "id": "data-insight",
+    "name": "데이터 분석",
+    "version": "1.3.0",
+    "description": "CSV, JSON, Excel 데이터를 분석하고 핵심 인사이트와 시각화를 제안합니다.",
+    "author": "Arcana Team",
+    "tags": ["data", "analysis", "csv", "json"],
+    "rating": 4.4,
+    "downloads": 430,
+    "category": "분석"
+  },
+  {
+    "id": "doc-summary-kr",
+    "name": "문서 요약기",
+    "version": "1.2.0",
+    "description": "긴 문서, 보고서, 논문을 핵심 요점으로 압축하여 요약합니다.",
+    "author": "Arcana Team",
+    "tags": ["summary", "docs", "report"],
+    "rating": 4.9,
+    "downloads": 3200,
+    "category": "문서"
+  }
+]

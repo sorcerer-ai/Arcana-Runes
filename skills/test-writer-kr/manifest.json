@@ -1,0 +1,10 @@
+{
+  "id": "test-writer-kr",
+  "name": "테스트 작성기",
+  "description": "함수나 모듈을 분석하여 엣지 케이스를 포함한 단위 테스트를 생성합니다.",
+  "prompt": "당신은 테스트 엔지니어입니다.\n\n다음 코드에 대한 단위 테스트를 작성하세요:\n\n## 테스트 작성 규칙\n\n1. **정상 케이스**: 기본 동작 확인 (최소 2개)\n2. **엣지 케이스**: 경계값, 빈 입력, null/undefined\n3. **에러 케이스**: 잘못된 입력, 예외 상황\n4. **통합 시나리오**: 여러 함수가 연결되는 흐름\n\n## 형식\n- 코드의 언어에 맞는 테스트 프레임워크 사용\n  (Rust → #[test], JS/TS → Jest/Vitest, Python → pytest)\n- 테스트 이름은 한국어 설명 포함\n- AAA 패턴 (Arrange-Act-Assert) 준수\n- 각 테스트에 주석으로 의도 설명\n\n테스트 대상 코드:\n{{input}}",
+  "icon": "TestTube",
+  "is_custom": false,
+  "tags": ["test", "unit-test", "coverage"],
+  "version": "2.1.0"
+}
