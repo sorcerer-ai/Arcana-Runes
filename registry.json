@@ -5,7 +5,11 @@
     "version": "1.0.0",
     "description": "코드 품질, 보안 취약점, 모범 사례를 종합적으로 검토합니다.",
     "author": "Arcana Team",
-    "tags": ["code", "review", "security"],
+    "tags": [
+      "code",
+      "review",
+      "security"
+    ],
     "rating": 4.8,
     "downloads": 1250,
     "category": "개발"
@@ -16,7 +20,11 @@
     "version": "1.1.0",
     "description": "에러 메시지와 스택 트레이스를 분석하여 수정 방안을 제시합니다.",
     "author": "Arcana Team",
-    "tags": ["bug", "debug", "error"],
+    "tags": [
+      "bug",
+      "debug",
+      "error"
+    ],
     "rating": 4.7,
     "downloads": 2100,
     "category": "개발"
@@ -27,7 +35,11 @@
     "version": "1.0.3",
     "description": "코드의 함수, 클래스, 엔드포인트에서 API 문서를 자동 생성합니다.",
     "author": "Arcana Team",
-    "tags": ["docs", "api", "documentation"],
+    "tags": [
+      "docs",
+      "api",
+      "documentation"
+    ],
     "rating": 4.5,
     "downloads": 890,
     "category": "문서"
@@ -38,7 +50,11 @@
     "version": "2.1.0",
     "description": "함수나 모듈을 분석하여 엣지 케이스를 포함한 단위 테스트를 생성합니다.",
     "author": "Arcana Team",
-    "tags": ["test", "unit-test", "coverage"],
+    "tags": [
+      "test",
+      "unit-test",
+      "coverage"
+    ],
     "rating": 4.7,
     "downloads": 1580,
     "category": "개발"
@@ -49,7 +65,11 @@
     "version": "1.1.0",
     "description": "코드 스멜을 감지하고 클린 코드 패턴에 따른 리팩토링을 제안합니다.",
     "author": "Arcana Team",
-    "tags": ["refactor", "clean-code", "patterns"],
+    "tags": [
+      "refactor",
+      "clean-code",
+      "patterns"
+    ],
     "rating": 4.3,
     "downloads": 670,
     "category": "개발"
@@ -60,7 +80,11 @@
     "version": "1.0.0",
     "description": "코드 변경사항을 분석하여 Conventional Commits 형식의 메시지를 생성합니다.",
     "author": "Arcana Team",
-    "tags": ["git", "commit", "conventional"],
+    "tags": [
+      "git",
+      "commit",
+      "conventional"
+    ],
     "rating": 4.6,
     "downloads": 1850,
     "category": "도구"
@@ -71,7 +95,12 @@
     "version": "1.3.0",
     "description": "CSV, JSON, Excel 데이터를 분석하고 핵심 인사이트와 시각화를 제안합니다.",
     "author": "Arcana Team",
-    "tags": ["data", "analysis", "csv", "json"],
+    "tags": [
+      "data",
+      "analysis",
+      "csv",
+      "json"
+    ],
     "rating": 4.4,
     "downloads": 430,
     "category": "분석"
@@ -82,9 +111,109 @@
     "version": "1.2.0",
     "description": "긴 문서, 보고서, 논문을 핵심 요점으로 압축하여 요약합니다.",
     "author": "Arcana Team",
-    "tags": ["summary", "docs", "report"],
+    "tags": [
+      "summary",
+      "docs",
+      "report"
+    ],
     "rating": 4.9,
     "downloads": 3200,
     "category": "문서"
+  },
+  {
+    "id": "biz-ideate",
+    "name": "사업 아이디에이션",
+    "version": "1.0.0",
+    "description": "RFP/공고문을 분석하고 대화형 Q&A를 통해 추진체계 초안을 작성합니다. 6단계 사업계획서 파이프라인의 1단계입니다.",
+    "author": "Arcana Team",
+    "tags": [
+      "사업계획",
+      "RFP",
+      "아이디에이션",
+      "추진체계"
+    ],
+    "rating": 4.8,
+    "downloads": 0,
+    "category": "사업계획"
+  },
+  {
+    "id": "task-define",
+    "name": "과제 정의",
+    "version": "1.0.0",
+    "description": "세부과제(WP)를 도출하고 목표·산출물·KPI를 정의하며 논리 연결성을 검증합니다. 6단계 파이프라인의 2단계입니다.",
+    "author": "Arcana Team",
+    "tags": [
+      "사업계획",
+      "WP",
+      "KPI",
+      "과제정의"
+    ],
+    "rating": 4.8,
+    "downloads": 0,
+    "category": "사업계획"
+  },
+  {
+    "id": "tech-analyze",
+    "name": "기술 분석",
+    "version": "1.0.0",
+    "description": "기술 차별성, 선행기술/트렌드 분석, 기술 로드맵 수립을 지원합니다. 6단계 파이프라인의 3단계입니다.",
+    "author": "Arcana Team",
+    "tags": [
+      "사업계획",
+      "기술분석",
+      "로드맵",
+      "TRL"
+    ],
+    "rating": 4.8,
+    "downloads": 0,
+    "category": "사업계획"
+  },
+  {
+    "id": "market-strategy",
+    "name": "시장 전략",
+    "version": "1.0.0",
+    "description": "TAM/SAM/SOM 기반 시장 분석과 BM/수익모델, 사업화 시나리오를 설계합니다. 6단계 파이프라인의 4단계입니다.",
+    "author": "Arcana Team",
+    "tags": [
+      "사업계획",
+      "시장분석",
+      "TAM",
+      "BM"
+    ],
+    "rating": 4.8,
+    "downloads": 0,
+    "category": "사업계획"
+  },
+  {
+    "id": "schedule-risk",
+    "name": "일정/리스크 관리",
+    "version": "1.0.0",
+    "description": "WBS 기반 일정 계획, 자원 배분, 리스크 대응 전략을 수립합니다. 6단계 파이프라인의 5단계입니다.",
+    "author": "Arcana Team",
+    "tags": [
+      "사업계획",
+      "WBS",
+      "리스크관리",
+      "자원배분"
+    ],
+    "rating": 4.8,
+    "downloads": 0,
+    "category": "사업계획"
+  },
+  {
+    "id": "biz-finalize",
+    "name": "사업계획서 최종화",
+    "version": "1.0.0",
+    "description": "평가항목 대응표 작성, 최종 문서 통합, 반복 개선 루프를 수행합니다. 6단계 파이프라인의 마지막 단계입니다.",
+    "author": "Arcana Team",
+    "tags": [
+      "사업계획",
+      "평가대응",
+      "최종화",
+      "검토"
+    ],
+    "rating": 4.8,
+    "downloads": 0,
+    "category": "사업계획"
   }
 ]
